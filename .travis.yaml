@@ -1,6 +1,6 @@
 env:
     global:
-        - DOCKER_REPO=dflima/docker-whale
+        - DOCKER_REPO=chrispauciello/docker-whale
 
 language: python
 python:
