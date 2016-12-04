@@ -10,20 +10,20 @@ $ docker run chrispauciello/docker-whale
 to receive an funny fortune from the Docker Whale.
 
 
- _______________________________________
-/ While you're chewing, think of STEVEN \
-| SPIELBERG'S bank account ... his will |
-| have the same effect as two "STARCH   |
-\ BLOCKERS"!                            /
- ---------------------------------------
-    \
-     \
-      \
-                    ##        .
-              ## ## ##       ==
-           ## ## ## ##      ===
-       /""""""""""""""""___/ ===
-  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~
-       \______ o          __/
-        \    \        __/
-          \____\______/
+     _______________________________________
+    / While you're chewing, think of STEVEN \
+    | SPIELBERG'S bank account ... his will |
+    | have the same effect as two "STARCH   |
+    \ BLOCKERS"!                            /
+     ---------------------------------------
+        \
+         \
+          \
+                        ##        .
+                  ## ## ##       ==
+               ## ## ## ##      ===
+           /""""""""""""""""___/ ===
+      ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~
+           \______ o          __/
+            \    \        __/
+             \____\______/
