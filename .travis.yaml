@@ -1,1 +1,24 @@
-#DockerWhale
+env:
+    global:
+        - DOCKER_REPO=dflima/docker-whale
+
+language: python
+python:
+    - 2.7
+    - 3.2
+    - 3.5
+
+services:
+    - docker
+
+install:
+    - docker run "$DOCKER_REPO"
+
+script:
+    - docker ps -a | grep "$DOCKER_REPO"
+
+after_success:
+    - if [ "$TRAVIS_BRANCH" == "master" ]; then
+      docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
+      docker push "$DOCKER_REPO";
+      fi
